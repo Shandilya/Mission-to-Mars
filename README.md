@@ -1,4 +1,4 @@
-# Mission-to-Mars
+﻿# Mission-to-Mars
 Mission to Mars  - Web Scraping
 
 
@@ -29,6 +29,11 @@ news_p = "Preparation of NASA's next spacecraft to Mars, InSight, has ramped up 
 Vandenberg Air Force Base in central California -- the first interplanetary launch in history from America's West Coast."
 ```
 
+
+
+
+
+
 ### JPL Mars Space Images - Featured Image
 
 * Visit the url for JPL Featured Space Image [here](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars).
@@ -45,6 +50,16 @@ assign the url string to a variable called `featured_image_url`.
 featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA16225_hires.jpg'
 ```
 
+
+
+
+
+
+
+
+
+
+
 ### Mars Weather
 
 * Visit the Mars Weather twitter account [here](https://twitter.com/marswxreport?lang=en) and 
@@ -55,12 +70,28 @@ scrape the latest Mars weather tweet from the page. Save the tweet text for the 
 mars_weather = 'Sol 1801 (Aug 30, 2017), Sunny, high -21C/-5F, low -80C/-112F, pressure at 8.82 hPa, daylight 06:09-17:55'
 ```
 
+
+
+
+
+
+
+
+
+
+
 ### Mars Facts
 
 * Visit the Mars Facts webpage [here](http://space-facts.com/mars/) and
  use Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
 
 * Use Pandas to convert the data to a HTML table string.
+
+
+
+
+
+
 
 ### Mars Hemispheres
 
